@@ -1,0 +1,33 @@
+<%- include('partials/_header'); %>
+<body style="color: white;">
+    <!-- CSS personalizado-->
+    <link rel="stylesheet" type="text/css" href="/public/css/main.css">
+    
+    <%- include('partials/_navbar'); %>
+
+    <div class="container mt-5">
+        <form>
+            <div class="form-row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <p class="text-medium">Ingrese su nombre de jugador</p>
+                    <input type="text" autocomplete="off" class="form-control" id="name" placeholder="Username">
+                    <br>
+                    <input type="button" value="Buscar partida" onclick="searchRoom()" class="btn btn-success">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="button" value="Crear sala" onclick="loadNewForm()" class="btn btn-warning">
+                    <div id="personal"></div>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://unbabel.com/hero-product-faqs_hubd7c121a9b16f43bb8bdf9e7f77c06dd_96471_1440x0_resize_box_2.png" style="widows: 500px; height:500px;" alt="">
+                </div>
+            </div>
+            <div class="form-row mt-5" id="">
+                
+            </div>
+        </form>
+    </div>
+
+    <script src="/public/js/prepare.js"></script>
+</body>
+<%- include('partials/_footer'); %>

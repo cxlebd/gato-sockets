@@ -1,0 +1,40 @@
+<%- include('partials/_header'); %>
+<body style="color: white;">
+	<!-- CSS personalizado-->
+	<link rel="stylesheet" type="text/css" href="/public/css/main.css">
+	<!-- Contenido-->
+
+	<%- include('partials/_navbar'); %>
+
+	<div class="container">
+		<div class="row">
+			<div class="col my-auto">
+				<h1 style="font-size: 60px;">El mejor juego de gato en tiempo real</h1><br>
+				<p class="text-medium">Juega con amigos en sesiones privadas, crea salas de espera, usa nombres personalizados y liberate del estres con un juego tan basico y divertido</p>
+				<br>
+				<input type="button" value="Probar" onclick="location.href = '/start'" class="btn btn-outline-light btn-lg">
+			</div>
+			<div class="col">
+				<img src="/public/img/j1.png">
+			</div>
+		</div>
+		<div class="row my-5">
+			<div class="col">
+				<center><p class="mx-auto text-medium">El mejor juego rapido para pasar el rato en tus clases online, transporte o aburrimiento</p></center>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<i class="fas fa-tachometer-alt ligh-big-i"></i>
+			</div>
+			<div class="col">
+				<i class="fas fa-people-carry ligh-big-i"></i>
+			</div>
+			<div>
+				<i class="fas fa-stream ligh-big-i"></i>
+			</div>
+		</div>
+	</div>
+
+</body>
+<%- include('partials/_footer'); %>

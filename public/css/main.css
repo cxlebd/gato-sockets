@@ -1,0 +1,23 @@
+nav{
+	background-color: #3041D9;
+	box-shadow: 5px 5px 10px rgba(37,37,37,.5);
+}
+
+body{
+	background: linear-gradient(to right, #3041D9 60%, #7C43DB);}
+
+.font-light{
+	color:white;
+}
+
+.text-medium{
+	font-size: 20px;
+}
+.ligh-big-i{
+	color: white;
+	font-size: 70px;
+}
+.btn-clear-medium{
+	color: white;
+	font-size: 20px;
+}
